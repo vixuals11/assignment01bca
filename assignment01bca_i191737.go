@@ -6,8 +6,6 @@ import (
 	"strconv"
 )
 
-
-
 func CalculateHash(stringToHash string) string {
 	sum := sha256.Sum256([]byte(stringToHash))
 
